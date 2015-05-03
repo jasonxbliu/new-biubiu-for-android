@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
-    <modules />
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcore/jcore.iml" filepath="$PROJECT_DIR$/jcore/jcore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libDanMu/libDanMu.iml" filepath="$PROJECT_DIR$/libDanMu/libDanMu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libPhotoPop/libPhotoPop.iml" filepath="$PROJECT_DIR$/libPhotoPop/libPhotoPop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libactionbar/libactionbar.iml" filepath="$PROJECT_DIR$/libactionbar/libactionbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libbottomtab/libbottomtab.iml" filepath="$PROJECT_DIR$/libbottomtab/libbottomtab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libpulltorefresh/libpulltorefresh.iml" filepath="$PROJECT_DIR$/libpulltorefresh/libpulltorefresh.iml" />
+    </modules>
   </component>
 </project>

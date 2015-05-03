@@ -77,7 +77,7 @@
         <!-- pc -->
          <meta-data
          android:name="com.baidu.lbsapi.API_KEY"
-         android:value="j2wfd39lV4OipVnqVT4Ehqv3" />
+         android:value="CerNGrkY4NnuxPwsa6jUNPie" />
 
         <service
             android:name="com.baidu.location.f"
