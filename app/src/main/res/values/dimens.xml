@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dfPadding">10dp</dimen>
+    <dimen name="editTextPadding">3dip</dimen>
+    <dimen name="editBarHeight">60dip</dimen>
+    <dimen name="listLeft">15dip</dimen>
+    <dimen name="iconSize">60dip</dimen>
+    <dimen name="listTop">15dip</dimen>
+    <dimen name="actionBarIconSize">22dp</dimen>
+    <dimen name="smallBtn">22dp</dimen>
+    <dimen name="drawablePading">5dip</dimen>
+    <dimen name="dfBtnHeight">50dip</dimen>
+    <dimen name="danmuSize">250dip</dimen>
+    <dimen name="tagSize">30dip</dimen>
+    <dimen name="colorPading">7dip</dimen>
+    <dimen name="smallPading">3dip</dimen>
+    <dimen name="msgTagSize">10dip</dimen>
+</resources>

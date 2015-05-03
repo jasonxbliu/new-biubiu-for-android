@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/wbgColor</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="homeAsUpIndicator">@drawable/ic_nav_back_white</item>
+        <item name="android:textColor">@color/dfTextColor</item>
+    </style>
+
+    <style name="AppTheme.FullScreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="MeDesc">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="GreyLine">
+        <item name="android:background">#E8E8E8</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style>
+
+    <color name="dfTextColor">#838383</color>
+</resources>

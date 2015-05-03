@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/listLeft"
+    tools:context="com.jaf.biubiu.ActivityMyUnion">
+
+    <com.jaf.jcore.NetworkListView
+        android:id="@+id/myUnionList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.jaf.jcore.NetworkListView>
+
+</LinearLayout>

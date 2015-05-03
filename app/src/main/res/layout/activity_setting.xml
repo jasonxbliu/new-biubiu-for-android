@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jaf.biubiu.ActivitySetting">
+
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_marginTop="20dip"
+        android:paddingTop="20dip"
+        android:paddingBottom="20dip"
+        android:paddingLeft="@dimen/dfPadding"
+        android:paddingRight="@dimen/dfPadding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="@string/pushSwitch"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/push"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        layout="@layout/layout_item_setting" />
+
+    <include
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_item_setting" />
+
+    <View style="@style/GreyLine" />
+
+    <include
+        android:id="@+id/contactUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_item_setting" />
+
+    <View style="@style/GreyLine" />
+
+    <include
+        android:id="@+id/userTerms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_item_setting" />
+
+</LinearLayout>

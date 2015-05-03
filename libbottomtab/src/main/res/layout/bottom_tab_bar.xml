@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="3dip"
+    android:paddingBottom="3dip"
+    android:background="#FFFFFF"
+    android:orientation="horizontal" >
+
+
+        <RadioButton
+            android:id="@+id/tab0"
+            style="@style/TabButton"
+            android:drawableTop="@drawable/sel_ic_nearby"
+            android:text="TAB0"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/tab1"
+            android:drawableTop="@drawable/sel_ic_topic"
+            android:text="TAB1"
+            style="@style/TabButton" />
+
+        <biubiu.jaf.com.libbottomtab.IndicatorRadioButton
+            android:id="@+id/tab2"
+            android:text="TAB2"
+            android:drawableTop="@drawable/sel_ic_message"
+            style="@style/TabButton" />
+
+        <RadioButton
+            android:id="@+id/tab3"
+            android:text="TAB3"
+            android:drawableTop="@drawable/sel_ic_me"
+            style="@style/TabButton" />
+</RadioGroup>

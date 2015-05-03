@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/greyEditBg"
+    android:padding="@dimen/dfPadding"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:showIn="@layout/activity_detail">
+
+    <EditText
+        android:id="@+id/msgEdit"
+        android:padding="@dimen/editTextPadding"
+        android:background="@drawable/shape_white_conner_fill"
+        android:hint="@string/bestAnswerHere"
+        android:inputType="textMultiLine"
+        android:layout_width="0dip"
+        android:textSize="12sp"
+        android:minLines="1"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:background="@drawable/shape_blue_corner_fill"
+        android:layout_marginLeft="@dimen/dfPadding"
+        android:id="@+id/send"
+        android:text="@string/send"
+        android:textColor="@drawable/sel_send_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dfBtnHeight" />
+</LinearLayout>

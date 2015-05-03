@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.jaf.biubiu.ActivityContactUs">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/bg_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="@string/companyInfo"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:paddingBottom="@dimen/dfPadding"
+        android:gravity="center|bottom"
+        android:text="@string/copyRight"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"/>
+</LinearLayout>

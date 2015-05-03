@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape
+            android:shape="oval" >
+            <solid android:color="#00000000" />
+
+            <size
+                android:height="@dimen/iconSize"
+                android:width="@dimen/iconSize" />
+        </shape>
+    </item>
+
+    <!--<item>-->
+        <!--<shape-->
+            <!--android:shape="oval" >-->
+            <!--<solid android:color="#FFFFFF" />-->
+
+            <!--<size-->
+                <!--android:height="58dp"-->
+                <!--android:width="58dp" />-->
+        <!--</shape>-->
+    <!--</item>-->
+
+</layer-list>

@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.jaf.biubiu.ActivityCreateUnion">
+
+    <ImageView
+        android:layout_marginTop="30dip"
+        android:id="@+id/capture"
+        android:src="@drawable/ic_capture"
+        android:layout_width="@dimen/iconSize"
+        android:layout_height="@dimen/iconSize" />
+
+    <TextView
+        android:text="@string/setUnionIcon"
+        android:layout_marginTop="@dimen/dfPadding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/unionEdit"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/shape_white_conner_stroke"
+        android:hint="@string/inputUnionName"
+        android:padding="10dip"
+        android:textSize="12sp"
+        android:maxLength="10"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="@dimen/dfPadding"
+        android:id="@+id/locDesc"
+        android:drawablePadding="5dip"
+        android:drawableLeft="@drawable/ic_lbs_grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:paddingLeft="80dip"
+        android:paddingRight="80dip"
+        android:layout_marginTop="20dip"
+        android:textSize="16sp"
+        android:text="@string/createUnion"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_blue_corner_fill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="@string/craeteUnionWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

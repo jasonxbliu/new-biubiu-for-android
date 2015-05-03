@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.jaf.biubiu.ActivityPublish">
+
+    <LinearLayout
+        android:padding="@dimen/dfPadding"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <EditText
+            android:maxLength="200"
+            android:hint="@string/publishHint"
+            android:gravity="top"
+            android:id="@+id/content"
+            android:textColor="@color/text_grey"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="@string/editMax"
+                android:layout_marginLeft="@dimen/dfPadding"
+                android:gravity="left"
+                android:id="@+id/textCount"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_gravity="center_vertical"
+                android:textColorHint="@color/text_grey"
+                android:hint="@string/signName"
+                android:id="@+id/sign"
+                android:textStyle="bold"
+                android:maxLength="20"
+                android:textColor="@color/text_grey"
+                android:layout_width="wrap_content"
+                android:background="@null"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:padding="@dimen/dfPadding"
+        android:background="@color/text_grey"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#000000"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/drawablePading"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/ic_lbg_black"
+            android:layout_toLeftOf="@+id/refresh"
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="@drawable/sel_refresh_btn"
+            android:layout_alignParentRight="true"
+            android:id="@+id/refresh"
+            android:layout_width="@dimen/smallBtn"
+            android:layout_height="@dimen/smallBtn" />
+    </RelativeLayout>
+</LinearLayout>

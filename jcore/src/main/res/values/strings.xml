@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JCore</string>
+    <string name="network_err">网络不给力~</string>
+    <string name="no_more">没有更多数据了~</string>
+</resources>

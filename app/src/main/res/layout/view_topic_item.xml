@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/listTop"
+    android:paddingTop="@dimen/listTop"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/topicIcon"
+        android:layout_width="@dimen/iconSize"
+        android:layout_height="@dimen/iconSize" />
+
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/dfPadding"
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/topicTitle"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/dfPadding"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingTop="1dp"
+                android:paddingBottom="1dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:id="@+id/distanceTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="@string/distance"
+                android:textSize="12sp"
+                android:id="@+id/distance"
+                android:layout_marginLeft="@dimen/dfPadding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@color/dfBlue"
+        android:id="@+id/topicCount"
+        android:textSize="14sp"
+        android:text="@string/topicCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

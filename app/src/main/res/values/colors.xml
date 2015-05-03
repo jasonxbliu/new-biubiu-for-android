@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wbgColor">#f0f3f5</color>
+    <color name="teal">#68E7C2</color>
+    <color name="greyEditBg">#DADADC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dfBlue">#54cbff</color>
+    <color name="appBlue">#54cbff</color>
+    <color name="dfYellow">#ffa200</color>
+    <color name="tagRed">#fc9185</color>
+    <color name="tagYellow">#f7e061</color>
+    <color name="tagGreen">#68e7c2</color>
+    <color name="listItemDark">#F6F9FB</color>
+</resources>

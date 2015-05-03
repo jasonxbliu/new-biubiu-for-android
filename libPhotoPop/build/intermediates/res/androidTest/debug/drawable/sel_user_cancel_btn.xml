@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:state_pressed="false" android:drawable="@drawable/bg_grey_stroke_normal"></item>
+	<item android:state_pressed="true" android:drawable="@drawable/bg_grey_stroke_press"></item>
+</selector>
+<!-- From: file:/Users/jarrahwu/Documents/JarrahGithub/PrjBiu/PrjBiu/all/MyApplication/libPhotoPop/src/main/res/drawable/sel_user_cancel_btn.xml --><!-- From: file:/Users/jarrahwu/Documents/JarrahGithub/PrjBiu/PrjBiu/all/MyApplication/libPhotoPop/build/intermediates/bundles/debug/res/drawable/sel_user_cancel_btn.xml -->

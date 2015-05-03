@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dip"
+        android:drawablePadding="5dip"
+        android:textColor="#FFFFFF"
+        android:id="@+id/barTitle"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:src="@drawable/sel_edit_btn"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dfPadding"
+        android:scaleType="centerInside"
+        android:id="@+id/barOption"
+        android:layout_width="@dimen/actionBarIconSize"
+        android:layout_height="@dimen/actionBarIconSize" />
+</RelativeLayout>

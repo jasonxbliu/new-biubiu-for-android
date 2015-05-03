@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="@dimen/listLeft"
+    android:paddingRight="@dimen/listLeft"
+    android:layout_gravity="center_horizontal"
+    android:paddingTop="25dip"
+    android:paddingBottom="@dimen/dfPadding"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/activity_question">
+
+    <TextView
+        android:id="@+id/questionText"
+        android:maxLength="200"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/dfBlue"
+            android:id="@+id/author"
+            android:layout_weight="1"
+            android:text="@string/anonymity"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content" />
+
+        <include layout="@layout/layout_like_panel" />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/unknownLoc"
+        android:textColor="@color/dfYellow"
+        android:drawablePadding="5dip"
+        android:drawableLeft="@drawable/ic_lbs_orange"
+        android:layout_marginTop="20dip"
+        android:id="@+id/topLocDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
