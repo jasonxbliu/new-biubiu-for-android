@@ -7,6 +7,7 @@ import android.webkit.WebView;
 
 import com.jaf.jcore.BaseActionBarActivity;
 
+//test commit
 
 public class ActivityAbout extends BaseActionBarActivity {
 

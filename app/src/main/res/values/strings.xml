@@ -18,7 +18,7 @@
     <string name="send">发送</string>
     <string name="anonymity">匿名</string>
     <string name="distance">%1$skm</string>
-    <string name="topicCount">%1$d条内容</string>
+    <string name="topicCount">今天有%1$d条内容</string>
     <string name="tagDistance">距</string>
     <string name="tagSchool">校</string>
     <string name="lookAround">随便看看</string>
