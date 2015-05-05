@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/jarrahwu/Documents/JarrahGithub/PrjBiu/PrjBiu/all/MyApplication/libPhotoPop/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/Users/liuxiaobo/Desktop/PrjBiu-master/all/MyApplication/libPhotoPop/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <dimen name="bannerTextPadding">8dip</dimen>
     <dimen name="gridHorizontalPadding">20dip</dimen>

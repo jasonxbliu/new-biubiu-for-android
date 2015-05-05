@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/jarrahwu/Documents/JarrahGithub/PrjBiu/PrjBiu/all/MyApplication/libactionbar/src/main/res/values/color.xml -->
+    <!-- From: file:/Users/liuxiaobo/Desktop/PrjBiu-master/all/MyApplication/libactionbar/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="actionbar_title">#000</color>
-    <!-- From: file:/Users/jarrahwu/Documents/JarrahGithub/PrjBiu/PrjBiu/all/MyApplication/libactionbar/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/liuxiaobo/Desktop/PrjBiu-master/all/MyApplication/libactionbar/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">ActionBarLibrary</string>
-    <!-- From: file:/Users/jarrahwu/Documents/JarrahGithub/PrjBiu/PrjBiu/all/MyApplication/libactionbar/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/liuxiaobo/Desktop/PrjBiu-master/all/MyApplication/libactionbar/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

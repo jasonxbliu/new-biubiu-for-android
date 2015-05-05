@@ -57,6 +57,7 @@ public class FragmentNearby extends BindableFragment implements Constant {
     @Override
     protected void onViewDidLoad(Bundle savedInstanceState) {
         super.onViewDidLoad(savedInstanceState);
+        mDataSource = new ArrayList<BeanNearbyItem>();
         loader = new AbsWorker.AbsLoader<ViewNearbyItem, BeanNearbyItem>() {
             @Override
             public String parseNextUrl(JSONObject response) {
@@ -85,15 +86,22 @@ public class FragmentNearby extends BindableFragment implements Constant {
                 ResponseNearby responseNearby = JacksonWrapper.json2Bean(
                         response, ResponseNearby.class);
                 // return responseNearby.getReturnData().getContData();
-
+                ArrayList<BeanNearbyItem> arrayList = new ArrayList<BeanNearbyItem>();
                 L.dbg("FragmentNearby response :" + response);
-                if (responseNearby != null) {
-                    mDataSource = responseNearby.getReturnData().getContData();
-                    return mDataSource;
+                if (responseNearby != null && responseNearby.getReturnData() != null) {
+                    if(responseNearby.getReturnData().getContData() != null) {
+                        arrayList = responseNearby.getReturnData().getContData();
+                        if(mNetworkListView.isLoadMore()) {
+                            mDataSource.addAll(arrayList);
+                        }else {
+                            mDataSource.clear();;
+                            mDataSource.addAll(arrayList);
+                        }
+                    }
                 } else {
-                    L.dbg("FragmentNearby response is null !");
-                    return null;
+                    L.dbg("FragmentNearby response is error !");
                 }
+                return arrayList;
             }
 
             @Override

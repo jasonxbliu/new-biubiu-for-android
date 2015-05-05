@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/jarrahwu/Documents/JarrahGithub/PrjBiu/PrjBiu/all/MyApplication/libactionbar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/Users/liuxiaobo/Desktop/PrjBiu-master/all/MyApplication/libactionbar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -18,10 +18,10 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/Users/jarrahwu/Documents/JarrahGithub/PrjBiu/PrjBiu/all/MyApplication/libactionbar/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/Users/liuxiaobo/Desktop/PrjBiu-master/all/MyApplication/libactionbar/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <color name="actionbar_title">#000</color>
-    <!-- From: file:/Users/jarrahwu/Documents/JarrahGithub/PrjBiu/PrjBiu/all/MyApplication/libactionbar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/Users/liuxiaobo/Desktop/PrjBiu-master/all/MyApplication/libactionbar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
@@ -158,7 +158,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/Users/jarrahwu/Documents/JarrahGithub/PrjBiu/PrjBiu/all/MyApplication/libactionbar/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/Users/liuxiaobo/Desktop/PrjBiu-master/all/MyApplication/libactionbar/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <string name="app_name">ActionBarLibrary</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
@@ -171,7 +171,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <!-- From: file:/Users/jarrahwu/Documents/JarrahGithub/PrjBiu/PrjBiu/all/MyApplication/libactionbar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/Users/liuxiaobo/Desktop/PrjBiu-master/all/MyApplication/libactionbar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>

@@ -15,4 +15,4 @@
         android:topLeftRadius="@dimen/indicator_corner_radius"
         android:topRightRadius="@dimen/indicator_corner_radius" />
 
-</shape><!-- From: file:/Users/jarrahwu/Documents/JarrahGithub/PrjBiu/PrjBiu/all/MyApplication/libpulltorefresh/src/main/res/drawable/indicator_bg_bottom.xml --><!-- From: file:/Users/jarrahwu/Documents/JarrahGithub/PrjBiu/PrjBiu/all/MyApplication/libpulltorefresh/build/intermediates/bundles/debug/res/drawable/indicator_bg_bottom.xml -->
+</shape><!-- From: file:/Users/liuxiaobo/Desktop/PrjBiu-master/all/MyApplication/libpulltorefresh/src/main/res/drawable/indicator_bg_bottom.xml --><!-- From: file:/Users/liuxiaobo/Desktop/PrjBiu-master/all/MyApplication/libpulltorefresh/build/intermediates/bundles/debug/res/drawable/indicator_bg_bottom.xml -->
